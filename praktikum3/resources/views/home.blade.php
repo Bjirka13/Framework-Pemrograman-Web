@@ -88,7 +88,7 @@
                 <h1 class="display-5 fw-bold text-dark">Selamat Datang di Dasbor Inventaris</h1>
                 <p class="col-md-8 fs-5 text-muted mb-4">Gunakan panel ini untuk memantau dan mengelola stok barang Anda secara efisien.</p>
                 <hr class="my-4">
-                <a href="#" class="btn btn-primary btn-lg">
+                <a href="{{ route('barang') }}" class="btn btn-primary btn-lg">
                     <i class="fas fa-boxes-stacked me-2"></i> 📦 Kelola Barang
                 </a>
             </div>
